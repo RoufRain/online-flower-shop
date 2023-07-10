@@ -43,3 +43,86 @@ background: #E55473;
 color: white;
 border: none;
 }
+
+/* main section css */
+.section-one{
+    align-items: center;
+    margin-top: 100px;
+    height: 500px;
+}
+.section-description{
+text-align: center;
+}
+.section-description h1{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800px;
+    margin-bottom: 20px;
+}
+.section-description p{
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.60);
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+.flower-pic-conteiner{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 180px;
+    
+    gap: 20px;
+}
+.flower-pic-conteiner h2{
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.bg-flower-one{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    height: 460px;
+    width: 380px;
+    align-items: center;
+    
+}
+.bg-flower-one img{
+    margin-top: 120px;
+    margin-bottom: 0px;
+    height: 340px;
+    width: 280px;
+    padding-left: 30px;
+    }
+.bg-flower-two img{
+        margin-top: 100px;
+        margin-bottom: 20px;
+        height: 340px;
+        width: 280px;
+        padding-left: 30px;
+     }
+.bg-flower-three img{
+            margin-top: 120px;
+            margin-bottom: 0px;
+            height: 340px;
+            width: 280px;
+            padding-left: 30px;
+ }
+   
+.bg-flower-two{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15); 
+    height: 460px;
+    width: 380px;
+    align-items: center;
+}
+.bg-flower-three{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15); 
+    height: 460px;
+    width: 380px;
+    align-items: center;
+}
