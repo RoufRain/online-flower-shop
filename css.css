@@ -135,7 +135,7 @@ text-align: center;
 /* section two */
 .section-two{
     background: rgba(39, 39, 39, 0.05);
-    margin-top: 300px;
+    margin-top: 150px;
     margin-left: 180px;
     display: flex;
     justify-content: space-around;
@@ -327,4 +327,49 @@ font-weight: 400;
 .color-text{
     color: #E55473;
 
+}
+
+/* extra section */
+.exta-section-container{
+    margin-top: 300px;
+    padding-top: 20px;
+    width: 100%;
+    height: 550px;
+    background: #d5e4f0;
+    
+}
+.text-about{
+    margin-top: 30px;
+    text-align: center;
+}
+.text-about h1{
+    padding-top: 20px;
+    margin-top: 30px;
+    font-family: Lato;
+    font-weight: 700;
+}
+.text-about h5{
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: Lato;
+    font-weight: 700;
+}
+
+.flower-container{
+    padding-top: 30px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: auto;
+}
+.flower-container img{
+    height: 300px;
+    width: 300px;
+}
+.text-under-flower{
+    text-align: center;
+    font-size: 17px;
+    font-family: Lato;
+    font-weight: 600;
 }
