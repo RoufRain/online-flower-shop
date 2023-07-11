@@ -3,18 +3,24 @@
     padding: 0;
 }
 .header-container{
+   
     background-color:rgba(229, 84, 115, 0.10);
-    height: 100vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    height: 730px;
+     
 }
 
 .header-description{
-    width: 550px;
-    margin-top: 30px;
-    gap: 30px;
-    padding-left: 100px;
+ width: 1450px; 
+ margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+}
+.header-text{
+    width: 800px;
+    margin-left: 180px;
 }
 .bold-text{
     font-family: Lato;
@@ -32,9 +38,9 @@
     height: 725px;
     width: 635px;
 }
-.header-image{
-    padding-right: 100px;
-}
+/* .header-image{
+    margin-left: 20px
+} */
 .btn{
     font-family: Lato;
     font-size: 17px;
@@ -48,9 +54,11 @@ border: none;
 
 /* main section css */
 .section-one{
-    align-items: center;
-    margin-top: 100px;
-    height: 500px;
+width: 1170px;
+margin: 0 auto;
+margin-top: 100px;
+margin-bottom: 350px;
+height: 500px;
 }
 .section-description{
 text-align: center;
@@ -74,9 +82,9 @@ text-align: center;
 .flower-pic-container{
     display: flex;
     margin-top: 50px;
-    margin-left: 180px;
+    /* margin-left: 180px; */
     
-    gap: 20px;
+    gap: 22px;
 }
 .flower-pic-container h2{
     margin-top: 50px;
@@ -132,36 +140,97 @@ text-align: center;
     align-items: center;
 }
 
+/* extra section */
+.exta-section-container{
+   
+    width: 1170px;
+    margin: 0 auto;
+    height: 550px;
+    background: #d5e4f0;
+    margin-bottom: 200px;
+    
+}
+
+.exta-section{
+    margin-top: 600px;
+    padding-top: 20px;
+}
+.text-about{
+    margin-top: 30px;
+    text-align: center;
+}
+.text-about h1{
+    padding-top: 20px;
+    margin-top: 30px;
+    font-family: Lato;
+    font-weight: 700;
+}
+.text-about h5{
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: Lato;
+    font-weight: 700;
+}
+
+.flower-container{
+    padding-top: 30px;
+    /* width: 80%; */
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    /* margin: auto; */
+}
+.flower-container img{
+    height: 300px;
+    width: 281px;
+}
+.text-under-flower{
+    text-align: center;
+    font-size: 17px;
+    font-family: Lato;
+    font-weight: 600;
+}
+
 /* section two */
 .section-two{
+    width: 1170px;
+    margin: 0 auto;
     background: rgba(39, 39, 39, 0.05);
-    margin-top: 150px;
-    margin-left: 180px;
+    /* margin-top: 150px; */
+    /* margin-left: 180px; */
     display: flex;
     justify-content: space-around;
-    padding: 30px;
-    width: 74%;
+    padding: 25px;
+    /* width: 74%; */
     height: 200px;
     align-items: center;
     border-radius: 5px;
 }
-.section-two div img{
+/* .section-two div img{
    align-items: center;
-}
+} */
 
-.offer-section{
+/* offer section */
+
+.offer-section-container{
     height: 500px;
-    margin-top: 100px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 200px;
+}
+.offer-section{
+    width: 1450px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
+    padding-top: 60px;
     justify-content: space-around;
     border-radius: 8px;
-    background: rgba(229, 84, 115, 0.05);
- 
+    
 }
 .text-part{
-    max-width: 500px;
-    padding-left: 100px;
+    width: 500px;
+    /* margin-left: 600px; */
+    /* padding-left: 100px; */
     text-align: center;
 
 }
@@ -187,17 +256,19 @@ font-weight: 400;
     margin-bottom: 30px;
 }
 .offer-section img{
-    padding-right: 130px;
+    /* margin-right: 600px; */
+    /* padding-right: 120px; */
     height: 350px;
     width: 280px;   
 }
 
 /* instagram section */
 .instagram-container{
-    width: 80%;
+    width: 1170px;
+    margin: 0 auto;
     height: 600px;
-    margin-left: 150px;
-    align-items: center; 
+    /* margin-left: 150px;
+    align-items: center;  */
     background: #FFF;
     margin-top: 128px;
     
@@ -214,16 +285,16 @@ font-weight: 800;
     text-align: center;
     margin-top: 20px;
     color: rgba(39, 39, 39, 0.60);
-font-family: Lato;
-font-size: 18px;
-font-weight: 400;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
 
 }
 .instagram-image{
     margin-top: 30px;
-    padding-left: 40px;
+    /* padding-left: 40px; */
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     gap: 20px;
 }
 .insta-image{
@@ -234,9 +305,10 @@ height: 300px;
 .deals-section{
     background-image: url("flower asset/Rectangle 9.png");
     background-position: center;
-    width: 1150px;
+    width: 1170px;
+    margin: 0 auto;
 height: 449px;
-margin-left: 180px;
+border-radius: 10px;
 }
 
 .deals-section h1{
@@ -329,47 +401,3 @@ font-weight: 400;
 
 }
 
-/* extra section */
-.exta-section-container{
-    margin-top: 300px;
-    padding-top: 20px;
-    width: 100%;
-    height: 550px;
-    background: #d5e4f0;
-    
-}
-.text-about{
-    margin-top: 30px;
-    text-align: center;
-}
-.text-about h1{
-    padding-top: 20px;
-    margin-top: 30px;
-    font-family: Lato;
-    font-weight: 700;
-}
-.text-about h5{
-    margin-top: 30px;
-    font-size: 20px;
-    font-family: Lato;
-    font-weight: 700;
-}
-
-.flower-container{
-    padding-top: 30px;
-    width: 80%;
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    margin: auto;
-}
-.flower-container img{
-    height: 300px;
-    width: 300px;
-}
-.text-under-flower{
-    text-align: center;
-    font-size: 17px;
-    font-family: Lato;
-    font-weight: 600;
-}
