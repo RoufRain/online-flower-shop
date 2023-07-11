@@ -17,11 +17,13 @@
     padding-left: 100px;
 }
 .bold-text{
+    font-family: Lato;
     font-size:60px ;
     font-weight:800 ;
     margin-bottom: 20px;
 }
 .normal-text{
+    font-family: Lato;
     font-size: 18px;
     font-weight: 400;
     margin-bottom:20px;
@@ -34,6 +36,7 @@
     padding-right: 100px;
 }
 .btn{
+    font-family: Lato;
     font-size: 17px;
     font-weight: 600;
     padding:20px 43px ;
@@ -53,12 +56,14 @@ border: none;
 text-align: center;
 }
 .section-description h1{
+    font-family: Lato;
     color: #272727;
     font-size: 40px;
     font-weight: 800px;
     margin-bottom: 20px;
 }
 .section-description p{
+    font-family: Lato;
     font-size: 18px;
     color: rgba(39, 39, 39, 0.60);
     font-weight: 400;
@@ -75,6 +80,7 @@ text-align: center;
 }
 .flower-pic-container h2{
     margin-top: 50px;
+    font-family: Lato;
     font-size: 24px;
     font-weight: 700;
     text-align: center;
